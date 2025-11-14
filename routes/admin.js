@@ -1,7 +1,7 @@
 import express from "express";
 import User from "../models/User.js";
 import Task from "../models/Task.js";
-import Withdrawal from "../models/Withdrawal.js";
+import Withdraw from "../models/withdraw.js";
 import { makePayout } from "../services/razorpay.js";
 
 const router = express.Router();
