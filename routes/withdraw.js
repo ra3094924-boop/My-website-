@@ -1,6 +1,6 @@
 import express from "express";
 import jwt from "jsonwebtoken";
-import Withdrawal from "../models/Withdrawal.js";
+import Withdraw from "../models/withdraw.js";
 import User from "../models/User.js";
 
 const router = express.Router();
